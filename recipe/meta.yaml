@@ -1,5 +1,5 @@
 {% set name = "vegafusion" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vegafusion-{{ version }}.tar.gz
-  sha256: 29b2b9c37634e1021536214ee444b0b8677ae651c0a8159407f3d54fdd3d6143
+  sha256: 23000d9ca1e7904bcfa03cc2bef7155501059f836a4d570d49df4563215f1049
 
 build:
   noarch: python
