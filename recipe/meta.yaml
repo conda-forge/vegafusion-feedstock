@@ -1,5 +1,5 @@
 {% set name = "vegafusion" %}
-{% set version = "0.10.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vegafusion-{{ version }}.tar.gz
-  sha256: 5747d306ded35f569cde67a1aec9df73aebf41713b716dd6eb4e6504295cc49c
+  sha256: f81c50a610b5352f390bd4ef64ccd87d5a71d995968b552671a8c19017ca32e4
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - psutil
     - pyarrow >=6
     - python >=3.7
-    - vegafusion-python-embed
+    - vegafusion-python-embed >=1.0
 
 test:
   imports:
@@ -36,9 +36,9 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/vegafusion/
+  home: https://vegafusion.io
   summary: Core tools for using VegaFusion from Python
-  license: AGPL-3.0-or-later
+  license: BSD-3-Clause
   license_file: LICENSE.txt
 
 extra:
