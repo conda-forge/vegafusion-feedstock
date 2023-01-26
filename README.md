@@ -1,9 +1,9 @@
 About vegafusion
 ================
 
-Home: https://pypi.org/project/vegafusion/
+Home: https://vegafusion.io
 
-Package license: AGPL-3.0-or-later
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vegafusion-feedstock/blob/main/LICENSE.txt)
 
