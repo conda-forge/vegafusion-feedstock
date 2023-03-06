@@ -1,11 +1,11 @@
-About vegafusion
-================
+About vegafusion-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vegafusion-feedstock/blob/main/LICENSE.txt)
 
 Home: https://vegafusion.io
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/vegafusion-feedstock/blob/main/LICENSE.txt)
 
 Summary: Core tools for using VegaFusion from Python
 
