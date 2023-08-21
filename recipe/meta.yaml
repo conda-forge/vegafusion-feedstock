@@ -26,6 +26,7 @@ requirements:
     - pyarrow >=6
     - python >=3.7
     - vegafusion-python-embed >=1.0
+    - protobuf
 
 test:
   imports:
