@@ -33,6 +33,7 @@ requirements:
     - python
     - arro3-core >=0.4.2
     - narwhals >=1.13.5
+    - packaging
 
 test:
   imports:
