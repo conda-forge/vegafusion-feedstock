@@ -46,7 +46,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file:
-    - LICENSE
+    - vegafusion-python/LICENSE
     - THIRDPARTY.yml
 
   summary: Server-side acceleration for the Vega visualization grammar
