@@ -11,6 +11,8 @@ source:
 
 build:
   number: 0
+  overlinking_ignore_patterns:
+    - "*"
 
 requirements:
   build:
